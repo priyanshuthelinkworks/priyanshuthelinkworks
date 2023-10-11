@@ -1,0 +1,238 @@
+[
+  {
+    "path": "http://miebach.thelinkworks.com:3000/masters/location-master/new",
+    "label": "locationMaster",
+    "fields_column": [
+      {
+        "collapsepath": "//input[@id='collapse-checkbox-0']",
+        "field": [
+          {
+            "field": "locationId",
+            "xpath": "//input[@name='LOCID']",
+            "type": "input",
+            "testData": "LOC-006",
+            "DDPath": "Null"
+          },
+          {
+            "field": "locationtype",
+            "xpath": "//input[@name='LOCID']//following::div[@class='MuiFormControl-root MuiTextField-root w-11/12 css-141utrw']",
+            "type": "dropdown",
+            "DDPath": "//li[text()='Basement Dock-01']",
+            "testData": "Null"
+          },
+          {
+            "field": "locationDescription",
+            "xpath": "//input[@name='LOCDESC']",
+            "type": "input",
+            "testData": "Desc_002",
+            "DDPath": "Null"
+          },
+          {
+            "field": "Company",
+            "xpath": "//input[@name='COMPANY']",
+            "type": "input",
+            "testData": "12345",
+            "DDPath": "null"
+          },
+          {
+            "field": "Whse",
+            "xpath": "//input[@name='WHSE']",
+            "type": "input",
+            "testData": "45789",
+            "DDPath": "null"
+          },
+          {
+            "field": "LocationClass",
+            "xpath": "//input[@name='WHSE']//following::div[@class='MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input css-qiwgdb']",
+            "type": "Dropdown",
+            "DDPath": "//li[text()='Dock Door']",
+            "testData": "Null"
+          }
+        ]
+      },
+      {
+        "collapsepath": "//input[@id='collapse-checkbox-1']",
+        "field": [
+          {
+            "field": "Floor",
+            "xpath": "//input[@name='FLOOR']",
+            "type": "input",
+            "testData": "F_01",
+            "DDPath": "null"
+          },
+          {
+            "field": "Row",
+            "xpath": "//input[@name='LOCROW']",
+            "type": "input",
+            "testData": "R_02",
+            "DDPath": "null"
+          },
+          {
+            "field": "column",
+            "xpath": "//input[@name='LOCCOLUMN']",
+            "type": "input",
+            "testData": "C_09",
+            "DDPath": "null"
+          },
+          {
+            "field": "Position",
+            "xpath": "//input[@name='LOCPOSITION']",
+            "type": "input",
+            "testData": "Po-09",
+            "DDPath": "null"
+          },
+          {
+            "field": "ControlCode",
+            "xpath": "//input[@name='CONTROLCD']",
+            "type": "input",
+            "testData": "Po-0923",
+            "DDPath": "null"
+          },
+          {
+            "field": "PickSequence",
+            "xpath": "//input[@name='PICKSEQ']",
+            "type": "input",
+            "testData": "0921",
+            "DDPath": "null"
+          },
+          {
+            "field": "fillSequence",
+            "xpath": "//input[@name='FILLSEQ']",
+            "type": "input",
+            "testData": "4567",
+            "DDPath": "null"
+          },
+          {
+            "field": "LocationAccessCode",
+            "xpath": "//input[@name='FILLSEQ']//following::div[@class='MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input css-qiwgdb']",
+            "type": "dropdown",
+            "DDPath": "//li[text()='High']",
+            "testData": "Null"
+          },
+          {
+            "field": "PutZone",
+            "xpath": "//input[@name='FILLSEQ']//following::div[@class='MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input css-qiwgdb']//following::div[@class='MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input css-qiwgdb']",
+            "type": "dropdown",
+            "DDPath": "//li[text()='B Zone']",
+            "testData": "Null"
+          },
+          {
+            "field": "allocatableInventory",
+            "xpath": "//input[@name='ALLOCATABLE']",
+            "type": "input",
+            "testData": "a",
+            "DDPath": "null"
+          }
+        ]
+      },
+      {
+        "collapsepath": "//input[@id='collapse-checkbox-2']",
+        "field": [
+          {
+            "field": "Transfer in Location-1",
+            "xpath": "//input[@name='TRANSFERIN']",
+            "type": "input",
+            "testData": "test-001",
+            "DDPath": "null"
+          },
+          {
+            "field": "Transfer in Location-2",
+            "xpath": "//input[@name='TRANSFEROUT']",
+            "type": "input",
+            "testData": "test-002",
+            "DDPath": "null"
+          },
+          {
+            "field": "workarea",
+            "xpath": "//input[@name='TRANSFEROUT']//following::div[@class='MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input css-qiwgdb']",
+            "type": "dropdown",
+            "DDPath": "//li[text()='B2']",
+            "testData": "Null"
+          },
+          {
+            "field": "PickfaceSKUCode",
+            "xpath": "//input[@name='PFSKUCODE']",
+            "type": "input",
+            "testData": "pick-002",
+            "DDPath": "null"
+          },
+          {
+            "field": "PartialPutaway",
+            "xpath": "//input[@name='PARTIALPICK']",
+            "type": "input",
+            "testData": "b",
+            "DDPath": "null"
+          },
+          {
+            "field": "Location Free",
+            "xpath": "//input[@name='LOCFREE']",
+            "type": "input",
+            "testData": "locst-002",
+            "DDPath": "null"
+          }
+        ]
+      },
+      {
+        "collapsepath": "//input[@id='collapse-checkbox-3']",
+        "field": [
+          {
+            "field": "Length",
+            "xpath": "//input[@name='LENGTH']",
+            "type": "input",
+            "testData": "09876",
+            "DDPath": "null"
+          },
+          {
+            "field": "width",
+            "xpath": "//input[@name='WIDTH']",
+            "type": "input",
+            "testData": "098",
+            "DDPath": "null"
+          },
+          {
+            "field": "height",
+            "xpath": "//input[@name='HEIGHT']",
+            "type": "input",
+            "testData": "098768",
+            "DDPath": "null"
+          },
+          {
+            "field": "Location Class1",
+            "xpath": "//input[@name='LOCCLASSTYPE']",
+            "type": "input",
+            "testData": "locc-002",
+            "DDPath": "null"
+          },
+          {
+            "field": "Allow Multiple Expiry Date",
+            "xpath": "//input[@name='MULTIEXPDT']",
+            "type": "input",
+            "testData": "locst-002",
+            "DDPath": "null"
+          },
+          {
+            "field": "Allow Multiple MRP",
+            "xpath": "//input[@name='MULTIMRP']",
+            "type": "input",
+            "testData": "locst-002",
+            "DDPath": "null"
+          },
+          {
+            "field": "loadUnitId",
+            "xpath": "//input[@name='LDUNIT']",
+            "type": "input",
+            "testData": "locst-002",
+            "DDPath": "null"
+          },
+          {
+            "field": "BestfitType",
+            "xpath": "//input[@name='BESTFITTYPE']",
+            "type": "input",
+            "testData": "locst-002",
+            "DDPath": "null"
+          }
+        ]
+      }
+    ]
+  }
+]

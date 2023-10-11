@@ -1,0 +1,52 @@
+[
+    {
+        "path": "http://miebach.thelinkworks.com:3000/masters/location-master",
+        "filterbtn": "//div[@title='Filter']",
+        "label": "List page_LM",
+        "fields_column": [
+            {
+                "field": "locationtype",
+                "xpath": "//div[@class='MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-1v4ccyo'][1]",
+                "type": "dropdown",
+                "DDPath": "//li[text()='Basement Dock-03']",
+                "testData": "Null"
+                             
+            },
+            {
+                "field": "locationClass",
+                "xpath": "//label[text()='Location Class']//following::div[@class='MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input css-qiwgdb'][1]",
+                "type": "dropdown",
+                "DDPath": "//li[text()='Dock Door']",
+                "testData": "null"
+            },
+            {
+                "field": "ControlCode",
+                "xpath": "//input[@name='CONTROLCD']",
+                "type": "input",
+                "testData": "cc_09",
+                "DDPath": "null"
+            },
+            {
+                "field": "LocationAccessCode",
+                "xpath": "//input[@name='CONTROLCD']//following::div[@class='MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input css-qiwgdb']",
+                "type": "dropdown",
+                "DDPath": "//li[text()='High']",
+                "testData": "null"
+            },
+            {
+                "field": "PutZone",
+                "xpath": "//input[@name='LOCACCCODE']//following::div[@class='MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input css-qiwgdb']",
+                "type": "dropdown",
+                "DDPath": "//li[text()='C Zone']",
+                "testData": "Null"
+            },
+            {
+                "field": "PickFaceSkuCode",
+                "xpath": "//input[@name='PFSKUCODE']",
+                "type": "input",
+                "testData": "F_01",
+                "DDPath": "null"
+            }
+        ]
+    }
+]
